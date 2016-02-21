@@ -1,0 +1,18 @@
+.slider {
+  height: 566px;
+
+  background: url("../images/banner3.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  animation-name: slider-animation;
+  animation-duration: 20s;
+}
+
+@keyframes slider-animation {
+  0%  { background-image: url("../images/banner1.png"); }
+  50%  { background-image: url("../images/banner2.png"); }
+  100% { background-image: url("../images/banner3.png"); }
+}
